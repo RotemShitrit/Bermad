@@ -230,6 +230,8 @@ public class MainActivity extends AppCompatActivity
  */
         if(id == R.id.nav_ftp) {
             OpenNewActivity(9);
+        } else if (id == R.id.nav_programm) { // access programming without pair to Rsint in order to present the costumer this option
+            OpenNewActivity(5);
         }
         else
         {
@@ -258,27 +260,23 @@ public class MainActivity extends AppCompatActivity
 /*
             if (id == R.id.nav_field_verif_1) {
                 OpenNewActivity(1);
+            } else if (id == R.id.nav_read_meter) {
+                OpenNewActivity(3);
+            } else if (id == R.id.nav_programm) {
+                OpenNewActivity(5); // access programming without pair to Rsint in order to present the costumer this option
             } else
 */
-            /*if (id == R.id.nav_read_meter) {
-                OpenNewActivity(3);
-            } */
-             if (id == R.id.nav_programm) {
-                OpenNewActivity(5);
-            } else if (id == R.id.nav_settings) {
+            if (id == R.id.nav_settings) {
                 OpenNewActivity(6);
-            }
-/*
-            else if (id == R.id.nav_rdm) {
-                OpenNewActivity(7);
-            }
-*/
-            else if (id == R.id.nav_log) {
+            } else if (id == R.id.nav_log) {
                 OpenNewActivity(10);
             } else if (id == R.id.nav_consumption) {
                 OpenNewActivity(11);
             }
 /*
+            else if (id == R.id.nav_rdm) {
+                OpenNewActivity(7);
+            }
             else if (id == R.id.nav_orders) {
               OpenNewActivity(8);}
 */
